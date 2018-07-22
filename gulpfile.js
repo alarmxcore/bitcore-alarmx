@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build-gobyte');
+var bitcoreTasks = require('bitcore-build-alarmx');
 
 bitcoreTasks();

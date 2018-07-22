@@ -1,17 +1,17 @@
 {
-  "name": "bitcore-gobyte",
+  "name": "bitcore-alarmx",
   "main": "./bitcore.min.js",
   "version": "0.13.5",
   "homepage": "http://bitcore.io",
   "authors": [
     "BitPay, Inc."
   ],
-  "description": "A pure, powerful core for your gobyte project.",
+  "description": "A pure, powerful core for your alarmx project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
-    "gobyte",
+    "alarmx",
     "bitcore",
     "dsh",
     "satoshi"

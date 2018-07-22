@@ -3,7 +3,7 @@
 'use strict';
 
 var path = require('path');
-var bitcored = require('bitcore-node-gobyte/lib/cli/bitcored');
+var bitcored = require('bitcore-node-alarmx/lib/cli/bitcored');
 var servicesPath = path.resolve(__dirname, '../');
-var additionalServices = ['insight-api-gobyte', 'insight-ui-gobyte'];
+var additionalServices = ['insight-api-alarmx', 'insight-ui-alarmx'];
 bitcored(servicesPath, additionalServices);

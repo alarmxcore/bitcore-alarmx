@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib-gobyte');
+var bitcore = require('bitcore-lib-alarmx');
 
 module.exports = bitcore;

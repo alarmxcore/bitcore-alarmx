@@ -1,24 +1,24 @@
-# Bitcore-GoByte
+# Bitcore-Alarmx
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-gobyte.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-gobyte)
-[![Build Status](https://img.shields.io/travis/gobytecoin/bitcore-gobyte.svg?branch=master&style=flat-square)](https://travis-ci.org/gobytecoin/bitcore-gobyte)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-alarmx.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-alarmx)
+[![Build Status](https://img.shields.io/travis/alarmxcore/bitcore-alarmx.svg?branch=master&style=flat-square)](https://travis-ci.org/alarmxcore/bitcore-alarmx)
 
-Infrastructure to build GoByte and blockchain-based applications for the next generation of financial technology.
+Infrastructure to build Alarmx and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-GoByte Library please see: https://github.com/gobytecoin/bitcore-lib-gobyte
+**Note:** If you're looking for the Bitcore-Alarmx Library please see: https://github.com/alarmxcore/bitcore-lib-alarmx
 
 ## Getting Started
 
 Before you begin you'll need to have Node.js v4+ installed. There are several options for installation. One method is to use [nvm](https://github.com/creationix/nvm) to easily switch between different versions, or download directly from [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g bitcore-gobyte
+npm install -g bitcore-alarmx
 ```
 
 Spin up a full node and join the network:
 
 ```bash
-npm install -g bitcore-gobyte
+npm install -g bitcore-alarmx
 bitcored
 ```
 
@@ -26,7 +26,7 @@ You can then view the Insight block explorer at the default location: `http://lo
 
 Create a transaction:
 ```js
-var bitcore = require('bitcore-gobyte');
+var bitcore = require('bitcore-alarmx');
 var transaction = new bitcore.Transaction();
 var transaction.from(unspent).to(address, amount);
 transaction.sign(privateKey);
@@ -34,24 +34,24 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-GoByte](https://github.com/gobytecoin/bitcore-node-gobyte) - A full node with extended capabilities using GoByte Core
-- [Insight API-GoByte](https://github.com/gobytecoin/insight-api-gobyte) - A blockchain explorer HTTP API
-- [Insight UI-GoByte](https://github.com/gobytecoin/insight-ui-gobyte) - A blockchain explorer web user interface
-- [Wallet Service](https://github.com/gobytecoin/bitcore-wallet-service-gobyte) - A multisig HD service for wallets
-- [Wallet Client](https://github.com/gobytecoin/bitcore-wallet-client-gobyte) - A client for the wallet service
+- [Node-Alarmx](https://github.com/alarmxcore/bitcore-node-alarmx) - A full node with extended capabilities using Alarmx Core
+- [Insight API-Alarmx](https://github.com/alarmxcore/insight-api-alarmx) - A blockchain explorer HTTP API
+- [Insight UI-Alarmx](https://github.com/alarmxcore/insight-ui-alarmx) - A blockchain explorer web user interface
+- [Wallet Service](https://github.com/alarmxcore/bitcore-wallet-service-alarmx) - A multisig HD service for wallets
+- [Wallet Client](https://github.com/alarmxcore/bitcore-wallet-client-alarmx) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
 - Angular Wallet Client - An Angular based wallet client
-- Copay - An easy-to-use, multiplatform, multisignature, secure GoByte wallet
+- Copay - An easy-to-use, multiplatform, multisignature, secure Alarmx wallet
 
 ## Libraries
 
-- [Lib-GoByte](https://github.com/gobytecoin/bitcore-lib-gobyte) - All of the core GoByte primatives including transactions, private key management and others
+- [Lib-Alarmx](https://github.com/alarmxcore/bitcore-lib-alarmx) - All of the core Alarmx primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-GoByte](https://github.com/gobytecoin/bitcore-p2p-gobyte) - The peer-to-peer networking protocol
-- [Mnemonic-GoByte](https://github.com/gobytecoin/bitcore-mnemonic-gobyte) - Implements mnemonic code for generating deterministic keys
-- Channel - Micropayment channels for rapidly adjusting GoByte transactions
-- [Message-GoByte](https://github.com/gobytecoin/bitcore-message-gobyte) - GoByte message verification and signing
-- [ECIES-GoByte](https://github.com/gobytecoin/bitcore-ecies-gobyte) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [P2P-Alarmx](https://github.com/alarmxcore/bitcore-p2p-alarmx) - The peer-to-peer networking protocol
+- [Mnemonic-Alarmx](https://github.com/alarmxcore/bitcore-mnemonic-alarmx) - Implements mnemonic code for generating deterministic keys
+- Channel - Micropayment channels for rapidly adjusting Alarmx transactions
+- [Message-Alarmx](https://github.com/alarmxcore/bitcore-message-alarmx) - Alarmx message verification and signing
+- [ECIES-Alarmx](https://github.com/alarmxcore/bitcore-ecies-alarmx) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
 
@@ -70,10 +70,10 @@ If you find a security issue, please email security@bitpay.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/gobytecoin/bitcore-gobyte/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/alarmxcore/bitcore-alarmx/blob/master/CONTRIBUTING.md) file.
 
 This will generate files named `bitcore.js` and `bitcore.min.js`.
 
 ## License
 
-Released under the MIT license, under the same terms as GoByteCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as AlarmxCore itself. See [LICENSE](LICENSE) for more info.
