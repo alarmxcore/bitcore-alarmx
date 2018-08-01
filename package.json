@@ -1,6 +1,6 @@
 {
   "name": "bitcore-alarmx",
-  "version": "4.1.7",
+  "version": "4.1.3",
   "description": "A platform to build Alarmx and blockchain-based applications.",
   "author": "Alarmx Core Group <dev@alarmx.io>",
   "main": "index.js",
@@ -67,6 +67,7 @@
     "cryptocurrency",
     "blockchain",
     "payment",
+    "bitcore",
     "bip21",
     "bip32",
     "bip37",
@@ -82,10 +83,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib-alarmx": "alarmxcore/bitcore-lib-alarmx",
-    "bitcore-node-alarmx": "alarmxcore/bitcore-node-alarmx",
-    "insight-api-alarmx": "alarmxcore/insight-api-alarmx",
-    "insight-ui-alarmx": "alarmxcore/insight-ui-alarmx"
+    "bitcore-lib-alarmx": "git://github.com/alarmxcore/bitcore-lib-alarmx.git",
+    "bitcore-node-alarmx": "git://github.com/alarmxcore/bitcore-node-alarmx.git",
+    "insight-api-alarmx": "git://github.com/alarmxcore/insight-api-alarmx.git",
+    "insight-ui-alarmx": "git://github.com/alarmxcore/insight-ui-alarmx.git"
   },
   "license": "MIT",
   "devDependencies": {
