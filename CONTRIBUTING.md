@@ -1,4 +1,4 @@
-# Contributing to Bitcore-Alarmx
+# Contributing to Bitcore-alarmx
 
 We're working hard to make *bitcore-alarmx* the most powerful JavaScript library for working with Alarmx. Our goal is to have *bitcore-alarmx* be a library that can be used by anyone interested in Alarmx, and to level expertise differences with great design and documentation.
 

@@ -1,7 +1,7 @@
 {
   "name": "bitcore-alarmx",
   "main": "./bitcore.min.js",
-  "version": "4.1.3",
+  "version": "0.13.5",
   "homepage": "http://bitcore.io",
   "authors": [
     "BitPay, Inc."
@@ -13,7 +13,7 @@
   "keywords": [
     "alarmx",
     "bitcore",
-    "alrmx",
+    "dsh",
     "satoshi"
   ],
   "license": "MIT",

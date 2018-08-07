@@ -1,11 +1,11 @@
-# Bitcore-Alarmx
+# Bitcore-alarmx
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore.svg?style=flat-square)](https://www.npmjs.org/package/bitcore)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore)
+[![Build Status](https://img.shields.io/travis/bitpay/bitcore.svg?branch=master&style=flat-square)](https://travis-ci.org/alarmxcore/bitcore)
 
 Infrastructure to build Alarmx and blockchain-based applications for the next generation of financial technology.
 
-**Note:** If you're looking for the Bitcore-Alarmx Library please see: https://github.com/alarmxcore/bitcore-lib-alarmx
+**Note:** If you're looking for the Bitcore-alarmx Library please see: https://github.com/alarmxcore/bitcore-lib-alarmx
 
 ## Getting Started
 
@@ -34,9 +34,9 @@ transaction.sign(privateKey);
 
 ## Applications
 
-- [Node-Alarmx](https://github.com/alarmxcore/bitcore-node-alarmx) - A full node with extended capabilities using Alarmx Core
-- [Insight API-Alarmx](https://github.com/alarmxcore/insight-api-alarmx) - A blockchain explorer HTTP API
-- [Insight UI-Alarmx](https://github.com/alarmxcore/insight-ui-alarmx) - A blockchain explorer web user interface
+- [Node-alarmx](https://github.com/alarmxcore/bitcore-node-alarmx) - A full node with extended capabilities using Alarmx Core
+- [Insight API-alarmx](https://github.com/alarmxcore/insight-api-alarmx) - A blockchain explorer HTTP API
+- [Insight UI-alarmx](https://github.com/alarmxcore/insight-ui-alarmx) - A blockchain explorer web user interface
 - [Wallet Service](https://github.com/alarmxcore/bitcore-wallet-service-alarmx) - A multisig HD service for wallets
 - [Wallet Client](https://github.com/alarmxcore/bitcore-wallet-client-alarmx) - A client for the wallet service
 - CLI Wallet - A command-line based wallet client
@@ -45,13 +45,13 @@ transaction.sign(privateKey);
 
 ## Libraries
 
-- [Lib-Alarmx](https://github.com/alarmxcore/bitcore-lib-alarmx) - All of the core Alarmx primatives including transactions, private key management and others
+- [Lib-alarmx](https://github.com/alarmxcore/bitcore-lib-alarmx) - All of the core Alarmx primatives including transactions, private key management and others
 - Payment Protocol - A protocol for communication between a merchant and customer
-- [P2P-Alarmx](https://github.com/alarmxcore/bitcore-p2p-alarmx) - The peer-to-peer networking protocol
-- [Mnemonic-Alarmx](https://github.com/alarmxcore/bitcore-mnemonic-alarmx) - Implements mnemonic code for generating deterministic keys
+- [P2P-alarmx](https://github.com/alarmxcore/bitcore-p2p-alarmx) - The peer-to-peer networking protocol
+- [Mnemonic-alarmx](https://github.com/alarmxcore/bitcore-mnemonic-alarmx) - Implements mnemonic code for generating deterministic keys
 - Channel - Micropayment channels for rapidly adjusting Alarmx transactions
-- [Message-Alarmx](https://github.com/alarmxcore/bitcore-message-alarmx) - Alarmx message verification and signing
-- [ECIES-Alarmx](https://github.com/alarmxcore/bitcore-ecies-alarmx) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
+- [Message-alarmx](https://github.com/alarmxcore/bitcore-message-alarmx) - Alarmx message verification and signing
+- [ECIES-alarmx](https://github.com/alarmxcore/bitcore-ecies-alarmx) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams.
 
 ## Documentation
 
@@ -76,4 +76,4 @@ This will generate files named `bitcore.js` and `bitcore.min.js`.
 
 ## License
 
-Released under the MIT license, under the same terms as AlarmxCore itself. See [LICENSE](LICENSE) for more info.
+Released under the MIT license, under the same terms as DashCore itself. See [LICENSE](LICENSE) for more info.
